@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'dana-font';
+  src: url("font/fullkade.eot?#iefix") format("embedded-opentype"), url("../font/danawebGX.woff") format("woff"); }
+
+html {
+  font-family: 'dana-font';
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  direction: rtl; }
+
+.login-page {
+  height: 100vh;
+  background-color: #e7effe;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .login-page .login-box {
+    display: flex;
+    flex-direction: row;
+    border-radius: 24px;
+    width: 1000px;
+    height: 600px;
+    border: none;
+    margin: 24px;
+    box-shadow: 0 20px 30px 0 #b3bce0, 0 40px 60px 0 rgba(0, 0, 0, 0.19); }
+    .login-page .login-box .first-section {
+      background-color: white;
+      width: 600px;
+      border-radius: 24px 0 0 24px;
+      /* Full-width inputs */
+      /* Set a style for all buttons */
+      /* Add a hover effect for buttons */
+      /* Add padding to containers */
+      /* The "Forgot password" text */ }
+      .login-page .login-box .first-section form {
+        margin: 16px 64px 16px 64px; }
+      .login-page .login-box .first-section input[type=text], .login-page .login-box .first-section input[type=password] {
+        width: 100%;
+        padding: 12px 24px;
+        margin: 12px 4px 16px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        font-family: 'dana-font';
+        box-sizing: border-box; }
+      .login-page .login-box .first-section button {
+        font-family: 'dana-font';
+        background-color: #1480b3;
+        color: white;
+        padding: 14px 20px;
+        margin: 12px 4px 12px 0;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        width: 100%; }
+      .login-page .login-box .first-section button:hover {
+        opacity: 0.8; }
+      .login-page .login-box .first-section .container {
+        padding: 16px; }
+      .login-page .login-box .first-section span.psw {
+        float: right;
+        padding-top: 16px; }
+    .login-page .login-box .second-section {
+      background-color: #05081e;
+      width: 400px;
+      border-radius: 0 24px 24px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .login-page .login-box .second-section .logo-title {
+        font-family: 'dana-font';
+        color: white;
+        font-size: 32px;
+        margin: 80px 16px 0 0; }
+      .login-page .login-box .second-section .imglogo {
+        margin: 56px 64px 0 0;
+        width: 96px;
+        height: 96px; }
+        .login-page .login-box .second-section .imglogo img {
+          width: 100%;
+          height: 100%; }
+      .login-page .login-box .second-section .justice-text {
+        margin: 0px 30px 0 30px;
+        color: white;
+        font-size: 18px;
+        text-align: center; }
+      .login-page .login-box .second-section .justice-name {
+        margin: -100px 248px 0 0;
+        color: white;
+        font-size: 18px;
+        text-align: left; }
